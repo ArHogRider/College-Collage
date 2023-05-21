@@ -5,8 +5,8 @@ import requests
 from sklearn.feature_extraction.text import TfidfVectorizer  # to do TI-IDF calculations
 from sklearn.metrics.pairwise import cosine_similarity  # to do Cosine comparison
 
-omdb.set_default('apikey', 'eb09cee9') #OMDB key
-TMDBKey = 'a9c03ccd5aefa83d5c72d86bf0fb9cf0' #TMDB key
+omdb.set_default('apikey', 'XXXX) #OMDB key You will need your own Key
+TMDBKey = 'XXXXX' #TMDB key you will need your own key
 Users_list = []  # Movie list from user
 final_list = []  # Exact movie list to get ratings
 score_array = np.array([])  # Array for Rotten tomato score
